@@ -1,10 +1,12 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
+subtitle: ""
 date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
 
-ShowReadingTime: true
+showWordCount: true
+showReadingTime: true
 
 Tags: []
 Categories: []
@@ -25,6 +27,16 @@ fraction: true
 fontawesome: true
 linkToMarkdown: true
 rssFullText: false
+
+code:
+  copy: true
+  maxShownLines: 50
+math:
+  enable: false
+mapbox:
+  # ...
+share:
+  enable: true
 
 ---
 
