@@ -29,7 +29,7 @@ languageName = "English"
     name = "Posts"
     url = "/posts/"
     # title will be shown when you hover on this menu link
-    title = ""
+    title = "All Posts"
   [[menu.main]]
     weight = 3
     identifier = "categories"
@@ -37,7 +37,7 @@ languageName = "English"
     post = ""
     name = "Categories"
     url = "/categories/"
-    title = ""
+    title = "All Categories"
   [[menu.main]]
     weight = 1
     identifier = "about"
@@ -48,7 +48,7 @@ languageName = "English"
     name = "About Me"
     url = "/about/"
     # title will be shown when you hover on this menu link
-    title = ""
+    title = "About Me"
   [[menu.main]]
     weight = 4
     identifier = "resume"
@@ -59,11 +59,11 @@ languageName = "English"
     name = "Resume"
     url = "/resume.pdf"
     # title will be shown when you hover on this menu link
-    title = ""
+    title = "My Resume"
 
 [params]
   # site default theme ["auto", "light", "dark"]
-  defaultTheme = "dark"
+  defaultTheme = "auto"
 
   # date format
   dateFormat = "Monday, January 2, 2006"
